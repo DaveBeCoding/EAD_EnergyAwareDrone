@@ -1,0 +1,34 @@
+# Ignore common compiler output
+*.o
+*.obj
+*.exe
+
+# Ignore package manager output
+PackageFile.txt
+package.log
+
+# Ignore IDE generated files
+.idea/
+.vscode/
+
+# Ignore test results
+test_results/
+
+# Ignore notes and related directories/files
+notes/
+notes.*
+notes.*
+
+# Ignore any directory/file starting with 'note' or 'notes'
+*note*
+*notes*
+
+# Ignore any file or directory starting with 'not'
+*nontes
+*nonte
+*notes
+
+# Ignore other common files that shouldn't be tracked
+*.log
+*.bak
+.DS_Store
